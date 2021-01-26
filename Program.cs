@@ -10,7 +10,6 @@ namespace Selection_Statements
                 Console.WriteLine("Its time to guess the number! Input an upper limit to start");
                 var userResponse = Console.ReadLine();
                 var upperLimit = int.Parse(userResponse);
-
                 var r = new Random();
                 var number = r.Next(1, upperLimit);
                 int guess;
